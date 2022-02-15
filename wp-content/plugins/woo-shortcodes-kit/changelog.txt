@@ -1,0 +1,127 @@
+----------------------------------------------------------------------------------------------------------------------
+Woo Shortcodes Kit v 2.0.0 (05/02/22) by Alberto G. - https://disespubli.com/
+
+Included:
+
+== Changelog ==
+
+= 2.0.0 =
+ *Changelog (05/02/22)
+
+
+NEW
+-----------
+
++ Function User Role Shortcode
+ 
+
+UPDATED
+-----------
+
++ Interface and brand colors
+
++ Plugin sections
+
++ Display saving prices
+
+  Now the function is also displayed on the Attributes pages.
+
+  Fixed the way styles are applied to the badge.
+
+  It is now compatible with the "related products" Elementor widget and no longer displays the style code above the badge.
+
+  In addition, a box with the "wshk-box-onsale" class has been added to which styles can be applied to further customize the   badge.In addition, a box with the "wshk-box-onsale" class has been added to which styles can be applied to further   customize the badge.
+
++ Logout button shortcode
+
+  Changed the way it generates the url from using wp_logout_url to using wc_logout_url just like WooCommerce uses for the   logout link on the account page.
+
++ Orders list shortcode
+
+  Now the function has a new option to enable or disable the View-order template and thereby improve the function's   compatibility with some plugins as well as WooCommerce Shipment Tracking (https://woocommerce.com/es-es/products/   shipment-tracking/)
+
++ WC Template  form-add-payment-method
++ WC Template  payment-methods
+
+  The templates have been updated to the latest version of WooCommerce.
+
+  Now if you only use Woo Shortcodes Kit, the free templates will be displayed, instead if you also use Woo Shortcodes Kit   PRO, the premium templates will be displayed.
+
+  The premium templates offer the option to customize the redirection of the action buttons and also have identifiers to add   styles more easily.
+
+  The button to add a new payment method can be customized by adding the ID "metopagoboton"
+
++ WC Template form-edit-account
+
+  The template has been updated to the latest version of WooCommerce.
+
+  Now if you only use Woo Shortcodes Kit, the free template will be displayed, instead if you also use Woo Shortcodes Kit   PRO, the premium template will be displayed.
+
+  The premium template displays the saved data in the First Name, Last Name and First Name fields.
+
+  It also has identifiers to be able to add styles more easily.
+
+  The button to save changes can be customized by adding the ID "editaccount", you can also customize the change password box   using the class "edit-acc-fieldset"
+
++ WC Template my-address
++ WC Template form-edit-address
+
+  Templates have been updated to the latest version of WooCommerce
+
+  Now if you only use Woo Shortcodes Kit, the free templates will be displayed, instead if you also use Woo Shortcodes Kit   PRO, the premium templates will be displayed.
+
+  The premium templates offer the option to customize the redirection of the action buttons and also have identifiers to add   styles more easily.
+
+  The button to save changes can be customized by adding the class "wshkaddressesbtn"
+
++ WC Template view-order
+
+  The template offers classes to be able to add styles more easily
+
+  You can customize the global box with the class "wshk_view_order_box"
+  You can customize the order status message with the class "wshk_view_order_status_msg"
+
++ WC Template orders
+
+  The template has been updated to version 3.7.0
+
++ WC Template order-again
+
+  The template has been updated to version 3.5.0
+
+  If you only use Woo Shortcodes Kit, this template shows next to the buy again button, a button to close the order details   and return to the list of placed orders.
+
+  If you also use Woo Shortcodes Kit PRO, this template has the ability to detect if you are using the Storefront theme to   apply a special style so that the icon is displayed correctly on the button.
+
+  In addition, the "Close" button that appears next to the "Buy again" button redirects to the same tab that you have   configured as the list of orders.
+
++ WC Template form-lost-password
+
+  The template has been updated to version 3.5.2
+
++ WC Template form-reset-password
+
+  The template has been updated to version 3.5.5
+
++ WC Tempalte lost-password-confirmation
+
+  The template has been updated to version 3.9.0
+
++ Spanish language template
+
+
+COMPATIBILITY TEST
+--------------------
+
++ Compatible with Easy My Account Builder 1.0.9
+
++ Compatible with WSHK PRO v 1.1.7
+
++ Compatible with WordPress 5.9
+
++ Compatible with WooCommerce 6.1.1
+
++ Compatible with Php 7.4
+
+
+[Old changelogs](https://disespubli.com/docs/)
